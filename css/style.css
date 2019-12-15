@@ -1,0 +1,287 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+body {
+	background: url(../image/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+.login-section {
+	background-color:#d9d9d9;
+	width: 600px;
+	margin: 10% auto;
+	padding: 50px;
+	border: 2px solid mediumaquamarine;
+	border-radius: 70px;
+	box-shadow: 22px -22px 48px #bfbf13;
+}
+.login-section img {
+
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+}
+.login-section h2 {
+	
+	text-align: center;
+	color:white;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 10px 0px;
+	background-color: mediumaquamarine;
+	width: 30%;
+	display: block;
+	margin: 25px auto 55px;
+	border: 2px solid white;
+	border-radius: 11px;
+	padding: 4px;
+}
+
+.form-control {
+	width: 75%;
+	height: 30px;
+	padding: 10px;
+	margin: 16px auto;
+	display: block;
+	border-radius: 18px;
+	outline: none;
+	border: none;
+	font-size: 14px;
+	color: transparent;
+	color:mediumaquamarine;
+}
+.rec-sign {
+	margin: 20px 55px;
+}
+.signup-create h5{
+
+	float: left;
+	margin: 10px 0px 10px 20px;
+}
+.signup-create a{
+
+	float: left;
+	text-decoration: none;
+	margin: 10px 0px 10px 10px;
+}
+.forget-pass h5{
+
+	float: left;
+	margin: 10px 0px 10px 30px;
+}
+.forget-pass a{
+
+	float: left;
+	margin: 10px 0px 10px 10px;
+	text-decoration: none;
+}
+.btn {
+
+	margin: 10px auto;
+	display: block;
+	padding: 8px 20px;
+	font-size: 17px;
+	border: 2px solid mediumaquamarine;
+	text-transform: uppercase;
+	transition: 0.4s ease;
+	border-radius: 18px;
+	background-color:mediumaquamarine;
+	color:white;
+	font-weight: bold;
+}
+.btn:hover {
+	box-shadow: 3px 3px 10px mediumaquamarine;
+	background-color: white;
+	color: mediumaquamarine;
+}
+
+/*>>>>>>>SignUp CSS<<<<<<<*/
+
+
+.signup-section {
+	background-color:#d9d9d9;
+	width: 600px;
+	margin: 10% auto;
+	padding: 50px;
+	border: 2px solid mediumaquamarine;
+	border-radius: 70px;
+	box-shadow: 22px -22px 48px #bfbf13;
+
+}
+.signup-section img {
+
+}
+.signup-section h2 {
+	text-align: center;
+	color:white;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 10px 0px;
+	background-color:mediumaquamarine;
+	width: 50%;
+	display: block;
+	margin: 0 auto 55px;
+	border: 2px solid white;
+	border-radius: 11px;
+	padding: 12px;
+}
+.signup-section h4 {
+	margin: 10px 0px 10px 69px;
+}
+.textarea {
+	width: 75%;
+	height: 30px;
+	padding: 10px;
+	margin: 16px auto;
+	display: block;
+	border-radius: 18px;
+	outline: none;
+	border: none;
+	font-size: 14px;
+	color: transparent;
+	color:mediumaquamarine;
+}
+input[type=text]:focus{
+	border-color: mediumaquamarine;
+	box-shadow: 0 0 8px 0 mediumaquamarine;
+
+}
+input[type=email]:focus{
+	border-color: mediumaquamarine;
+	box-shadow: 0 0 8px 0 mediumaquamarine;
+}
+input[type=password]:focus{
+	border-color: mediumaquamarine;
+	box-shadow: 0 0 8px 0 mediumaquamarine;
+}
+input[type=date]:focus{
+	border-color: mediumaquamarine;
+	box-shadow: 0 0 8px 0 mediumaquamarine;
+}
+.date {
+	height: 30px;
+	padding: 5px;
+	margin: 10px 0px 10px 69px;
+	display: block;
+	border-radius: 14px;
+	border: none;
+	color:mediumaquamarine;
+}
+.radio-btn {
+	margin: 5px 0px 10px 69px;
+}
+
+.btn-signup {
+	margin: 10px auto;
+	display: block;
+	padding: 8px 20px;
+	font-size: 17px;
+	border: 2px solid mediumaquamarine;
+	text-transform: uppercase;
+	transition: 0.4s ease;
+	border-radius: 18px;
+	background-color:mediumaquamarine;
+	color:white;
+	font-weight: bold;
+}
+.btn-signup:hover {
+	box-shadow: 3px 3px 10px mediumaquamarine;
+	background-color: white;
+	color: mediumaquamarine;
+}
+.log-signup {
+	margin: 20px 14%;
+}
+.login-back {
+	display: flex;
+	float: left;
+}
+.login-back h5 {
+
+}
+.login-back a {
+	text-decoration: none;
+	margin: 3px;
+}
+.sigup-back {
+	display: flex;
+	float: left;
+}
+.sigup-back h5{
+
+}
+.sigup-back a {
+	text-decoration: none;
+	margin: 3px;
+}
+
+
+/*>>>>>>>>>>>>Recover Section<<<<<<<<<<<<*/
+
+
+.recover-section {
+	background-color:#d9d9d9;
+	width: 600px;
+	margin: 10% auto;
+	padding: 50px;
+	border: 2px solid mediumaquamarine;
+	border-radius: 70px;
+	box-shadow: 22px -22px 48px #bfbf13;
+
+}
+.recover-section h2{
+	text-align: center;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+}
+.recover-section h5 {
+	padding: 5px;
+	margin: 0px 0px 16px 0px;
+}
+.btn-rec {
+	margin: 36px auto 0px;
+	display: block;
+	padding: 8px 20px;
+	font-size: 17px;
+	border: 2px solid mediumaquamarine;
+	text-transform: uppercase;
+	transition: 0.4s ease;
+	border-radius: 18px;
+	background-color:mediumaquamarine;
+	color:white;
+	font-weight: bold;
+}
+.btn-rec:hover {
+	box-shadow: 3px 3px 10px mediumaquamarine;
+	background-color: white;
+	color: mediumaquamarine;
+
+}
+.log-rec {
+	margin: 58px 0px 0px 34px;
+}
+.log-back {
+	display: flex;
+	float: left;
+}
+.log-back a{
+	text-decoration: none;
+	padding: 0px 0px 0px 10px;
+}
+.rec-back {
+	display: flex;
+	float: left;
+	margin: 0px 0px 0px 47px;
+}
+.rec-back a{
+	text-decoration: none;
+	padding: 0px 33px 0px 10px;
+}
